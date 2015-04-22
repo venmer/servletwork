@@ -1,6 +1,7 @@
 package servlets;
 
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -12,10 +13,13 @@ import java.io.PrintWriter;
  * date: 17.04.15
  * time: 13:44.
  */
+@WebServlet(urlPatterns="/formdata")
 public class FormHandlerservlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        super.doGet(req, resp);
+        PrintWriter pw=resp.getWriter();
+        resp.setContentType("text/html");
+        pw.print("<p> This is formdata form! </p>");
     }
 
     @Override
