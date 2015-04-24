@@ -15,7 +15,7 @@
 <table cellpadding="0" cellspacing="0" border="1" width="100%">
      <tr>
      <td width="100%">
-        <%@ include file="/WEB-INF/templates/navigation.jspf"%>
+        <%@ include file="/public/templates/navigation.jspf"%>
     </td>
          <td>This is main page</td>
     </tr>

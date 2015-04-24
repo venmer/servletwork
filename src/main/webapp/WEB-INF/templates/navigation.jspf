@@ -1,5 +1,0 @@
-<b>Application menu</b>
-<ul>
-    <li> <a href="student.jsp">Student</a></li>
-</ul>
-Current page: <%=pageName%>
