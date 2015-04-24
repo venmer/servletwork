@@ -2,5 +2,6 @@
 <ul>
     <li> <a href="/public/templates/student.jsp">Student</a></li>
     <li> <a href="/public/templates/usertagstest.jsp">User tags test</a></li>
+    <li><a href="/public/templates/addressform.jsp">Address</a> </li>
 </ul>
 Current page: <%=pageName%>
